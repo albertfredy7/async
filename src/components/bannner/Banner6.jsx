@@ -18,9 +18,9 @@ function Banner6() {
         <Spline scene="https://prod.spline.design/4BpqgycJeJiMmYjI/scene.splinecode" />
       </div>
 
-      <div style={{  marginLeft: "50%", }}>
+      {/* <div style={{  marginLeft: "50%", }}>
         <Spline scene="https://prod.spline.design/XizqxaB-Ran8q6w0/scene.splinecode" style={{ zIndex: 2,position:'absolute', top: 40, right: "-25%", scale: '1.5' }} />
-      </div>
+      </div> */}
 
       <div className="banner-wrap" style={{ zIndex: "2", padding: "10%" }}>
 
@@ -34,14 +34,13 @@ function Banner6() {
         </div>
         <div className="row">
 
-          <div className="col-xxl-6 col-lg-5 d-flex align-items-center">
+          <div className="d-flex align-items-center justify-content-center">
 
-            <div className="banner-content" style={{ marginLeft: '10%' }}>
+            <div className="banner-content">
 
-              <h1>Set Your <span>Business</span><br /> New Ideas.</h1>
-              <p>Curabitur sed facilisis erat. Vestibulum pharetra eros eget fringilla porttitor. oltorrent gongi
-                Duis a orci nunc. Suspendisse ac convallis sapien, quis commodo libero. Donec nec duomoi luctus, pellentesque lacus sed, mollis going leo.</p>
-              <div className="banner-btn-group">
+              <h1 className='text-center'>Set Your <span>Business</span><br /> New Ideas.</h1>
+              <p className='text-center'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit facere minima, corrupti dolore animi sequi atque, iure illum deserunt officia eligendi blanditiis ipsam cupiditate nobis error? Placeat consequuntur fuga expedita?</p>
+              <div className="banner-btn-group d-flex justify-content-center">
                 <Link legacyBehavior href="/contact"><a className="primary-btn3">Free Consultancy</a></Link>
                 <Link legacyBehavior href="/service">
                   <a className="primary-btn5">

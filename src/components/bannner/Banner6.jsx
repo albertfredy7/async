@@ -15,7 +15,7 @@ function Banner6() {
         opacity: '0.5',
         // Ensure this is behind the content
       }}
-      className=''
+      className='d-none d-sm-block'
       >
         <Spline scene="https://prod.spline.design/4BpqgycJeJiMmYjI/scene.splinecode" />
       </div>

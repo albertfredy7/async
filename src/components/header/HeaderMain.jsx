@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
-import React, { useEffect, useReducer, useRef } from "react";
+import React, { useEffect, useReducer, useRef, useState } from "react";
 
 
 const initialState = {
@@ -45,6 +45,15 @@ function reducer(state, action) {
 
 function HeaderMain() {
     const [state, dispatch] = useReducer(reducer, initialState);
+
+    const [splineReady, setSplineReady] = useState(false);
+
+    useEffect(() => {
+        setTimeout(() => {
+            setSplineReady(true);
+        }, 1000); // Adjust the delay as needed
+    }, [splineReady]);
+
     const headerRef = useRef(null);
     const handleScroll = () => {
         const { scrollY } = window;
@@ -126,7 +135,7 @@ function HeaderMain() {
                                 </div>
                                 <div className="info">
                                     <a href="mailto: info@example.com">support@asyncsolution.com</a>
-                                  
+
                                 </div>
                             </div>
                         </div>
@@ -549,12 +558,10 @@ function HeaderMain() {
                     <div className="sidebar-btn2" onClick={toggleLeftSidebar}>
                         <img src="assets/img/home-3/sidebar-btn.svg" alt="" />
                     </div>
-                    <div
-                        className={`sidebar-button mobile-menu-btn ${state.isSidebarOpenMenu ? "active" : ""
-                            }`}
-                        onClick={toggleSidebarMenu}
-                    >
-                        <span />
+                    <div className="header-btn d-xl-flex d-none">
+                        <Link legacyBehavior href="/contact">
+                            <a className="primary-btn3">Get A Quote</a>
+                        </Link>
                     </div>
                 </div>
             </header>

@@ -9,6 +9,7 @@ import Preloader from "@/components/common/Preloader";
 import Home3Contact from "@/components/contact/Home3Contact";
 import Footer2 from "@/components/footer/Footer2";
 import Footer3 from "@/components/footer/Footer3";
+import Header from "@/components/header/Header";
 import Header3 from "@/components/header/Header3";
 import HeaderMain from "@/components/header/HeaderMain";
 import Partner3 from "@/components/partner/Partner3";

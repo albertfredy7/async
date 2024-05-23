@@ -1,16 +1,16 @@
 import Link from 'next/link'
 import React from 'react'
 
-function Footer3() {
+function Footer2() {
   return (
-    <footer>
+    <footer className="two">
   <div className="footer-top">
     <div className="container">
       <div className="row">
         <div className="col-lg-12">
           <div className="footer-top-content">
             <div className="footer-logo">
-              <Link legacyBehavior href="/"><a><img className="img-fluid" src="assets/img/logo.svg" alt="" /></a></Link>
+              <Link legacyBehavior href="/"><a><img className="img-fluid" src="assets\img\logo.svg" width={'50%'} alt="" /></a></Link>
             </div>
             <div className="footer-contect">
               <div className="icon">
@@ -24,7 +24,7 @@ function Footer3() {
               </div>
               <div className="content">
                 <span>Call Any Time</span>
-                <h6><a href="tel: 29658718617">2-965-871-8617</a></h6>
+                <h6><a href="tel: +968 9202 0910">+968 9202 0910</a></h6>
               </div>
             </div>
           </div>
@@ -43,7 +43,7 @@ function Footer3() {
               </svg>
               Address
             </h4>
-            <a href="#">House 168/170, Avenue 01, Mirpur DOHS, Dhaka Bangladesh</a>
+            <a href="#">Al Wadi Al Kabir, <br /> Muscat, Oman</a>
           </div>
           <div className="footer-contact mb-40">
             <h4>
@@ -52,8 +52,8 @@ function Footer3() {
               </svg>
               Say Hello
             </h4>
-            <a href="mailto:ifo@example.com">ifo@example.com</a><br />
-            <a href="mailto:info@support.com">info@support.com</a>
+            <a href="mailto: support@asyncsolution.com">support@asyncsolution.com</a>
+            
           </div>
           <div className="footer-contact">
             <h6>See Our New updates</h6>
@@ -96,7 +96,7 @@ function Footer3() {
             <ul>
               <li><Link legacyBehavior href="/about"><a>About Us</a></Link></li>
               <li><Link legacyBehavior href="/case-study"><a>Case Study</a></Link></li>
-              <li><Link legacyBehavior href="/blog"><a>News &amp  Article;</a></Link></li>
+              <li><Link legacyBehavior href="/blog"><a>News &amp; Article</a></Link></li>
               <li><Link legacyBehavior href="/team1"><a>Our Team</a></Link></li>
               <li><Link legacyBehavior href="/project"><a>All Portfolio</a></Link></li>
               <li><Link legacyBehavior href="/pricing"><a>Pricing Plan</a></Link></li>
@@ -149,4 +149,4 @@ function Footer3() {
   )
 }
 
-export default Footer3
+export default Footer2

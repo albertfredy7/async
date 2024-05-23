@@ -10,7 +10,7 @@ function Footer2() {
         <div className="col-lg-12">
           <div className="footer-top-content">
             <div className="footer-logo">
-              <Link legacyBehavior href="/"><a><img className="img-fluid" src="assets/img/logo.svg" alt="" /></a></Link>
+              <Link legacyBehavior href="/"><a><img className="img-fluid" src="assets\img\logo.svg" width={'50%'} alt="" /></a></Link>
             </div>
             <div className="footer-contect">
               <div className="icon">

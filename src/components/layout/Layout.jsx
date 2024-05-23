@@ -3,12 +3,13 @@ import Footer3 from "../footer/Footer3";
 import Header from "../header/Header";
 import useBodyClass from "@/hooks/useBodyClass";
 import Head from "next/head";
+import { Toaster } from "react-hot-toast";
 
 function Layout({ children }) {
   useBodyClass("home-dark2");
   return (
     <>
-     <Head>
+      <Head>
         <title>
           Async Solutions
         </title>
@@ -16,6 +17,31 @@ function Layout({ children }) {
         <link rel="icon" href="..\favicon.ico" />
       </Head>
       <Header />
+      <Toaster
+        position="top-right"
+        reverseOrder={false}
+        gutter={8}
+        containerClassName=""
+        containerStyle={{}}
+        toastOptions={{
+          // Define default options
+          className: '',
+          duration: 5000,
+          style: {
+            background: '#333',
+            color: '#fff',
+          },
+
+          // Default options for specific types
+          success: {
+            duration: 3000,
+            theme: {
+              primary: 'green',
+              secondary: 'black',
+            },
+          },
+        }}
+      />
       {children}
       <Footer3 />
     </>

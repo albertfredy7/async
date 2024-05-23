@@ -1,8 +1,59 @@
 import Breadcrumb from "@/components/common/Breadcrumb";
 import Layout from "@/components/layout/Layout";
-import React from "react";
+import React, { useState, useRef } from "react";
+import emailjs from "@emailjs/browser";
+import { toast } from 'react-hot-toast';
 
 function Contactpage() {
+
+  const [formData, setFormData] = useState({
+    firstName: "",
+    lastName: "",
+    company: "",
+    email: "",
+    phone: "",
+    message: "",
+  });
+
+  const formRef = useRef();
+
+  const handleChange = (e) => {
+    setFormData({...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    // Check if all fields are filled
+    const allFieldsFilled = Object.values(formData).every(field => field.trim()!== "");
+
+    if (!allFieldsFilled) {
+      // Show error toast if any field is empty
+      toast.error("Please fill all fields.");
+      return; // Prevent form submission
+    }
+
+    emailjs.sendForm('service_riyzlem', 'template_a46h1bq', formRef.current, {
+      publicKey: 'RCPN5EJySzdBPv2Vq',
+    })
+.then((result) => {
+        // Show success toast
+        toast.success("Your message has been sent successfully!");
+        // Clear form fields
+        setFormData({
+          firstName: "",
+          lastName: "",
+          company: "",
+          email: "",
+          phone: "",
+          message: "",
+        });
+    }, (error) => {
+        // Show error toast
+        toast.error(`Error sending message: ${error.text}`);
+    });
+  };
+
   return (
     <Layout>
       <Breadcrumb
@@ -13,7 +64,7 @@ function Contactpage() {
       <div className="contact-page-wrap sec-mar">
         <div className="container">
           <div className="row g-lg-4 gy-5">
-            <div className="col-lg-6">
+          <div className="col-lg-6">
               <div className="contact-content">
                 <span>CONTACT WITH US</span>
                 <h2>LET’S WORK TOGETHER?</h2>
@@ -88,42 +139,42 @@ function Contactpage() {
                   <h5>Make a Free Consulting</h5>
                 </div>
                 <div className="contact-form">
-                  <form>
+                  <form ref={formRef} onSubmit={handleSubmit}>
                     <div className="row">
                       <div className="col-md-6 mb-20">
                         <div className="form-inner">
-                          <label>first name</label>
-                          <input type="text" />
+                          <label>First Name</label>
+                          <input type="text" name="firstName" value={formData.firstName} onChange={handleChange} />
                         </div>
                       </div>
                       <div className="col-md-6 mb-20">
                         <div className="form-inner">
-                          <label>Last name</label>
-                          <input type="text" />
+                          <label>Last Name</label>
+                          <input type="text" name="lastName" value={formData.lastName} onChange={handleChange} />
                         </div>
                       </div>
                       <div className="col-lg-12 mb-20">
                         <div className="form-inner">
                           <label>Company/Organization</label>
-                          <input type="text" />
+                          <input type="text" name="company" value={formData.company} onChange={handleChange} />
                         </div>
                       </div>
                       <div className="col-lg-12 mb-20">
                         <div className="form-inner">
                           <label>Email</label>
-                          <input type="email" />
+                          <input type="email" name="email" value={formData.email} onChange={handleChange} />
                         </div>
                       </div>
                       <div className="col-lg-12 mb-20">
                         <div className="form-inner">
                           <label>Phone</label>
-                          <input type="email" />
+                          <input type="tel" name="phone" value={formData.phone} onChange={handleChange} />
                         </div>
                       </div>
                       <div className="col-lg-12 mb-20">
                         <div className="form-inner">
                           <label>Message</label>
-                          <textarea defaultValue={""} />
+                          <textarea name="message" value={formData.message} onChange={handleChange}></textarea>
                         </div>
                       </div>
                       <div className="col-lg-12">

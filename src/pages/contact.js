@@ -29,8 +29,7 @@ function Contactpage() {
                     </div>
                     <div className="info">
                       <p>
-                        168/170, Avenue 01, Old York <br /> Drive Rich Mirpur
-                        DOHS, Bangladesh
+                        Al Wadi Al Kabir, <br /> Muscat, Oman
                       </p>
                     </div>
                   </div>
@@ -39,8 +38,8 @@ function Contactpage() {
                       <i className="fas fa-phone-alt" />
                     </div>
                     <div className="info">
-                      <a href="tel:05661111985">+880 566 1111 985</a>
-                      <a href="tel:06571111576">+880 657 1111 576</a>
+                      <a href="tel:+96892020910">+968 9202 0910</a>
+                      <a href="tel:+96824818901">+968 2481 8901</a>
                     </div>
                   </div>
                   <div className="single-info">
@@ -48,8 +47,8 @@ function Contactpage() {
                       <i className="far fa-envelope" />
                     </div>
                     <div className="info">
-                      <a href="mailto: info@example.com">info@example.com</a>
-                      <a href="mailto: info@support.com">info@support.com</a>
+                      <a href="mailto: support@asyncsolution.com">support@asyncsolution.com</a>
+                      
                     </div>
                   </div>
                 </div>

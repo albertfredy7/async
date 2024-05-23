@@ -24,7 +24,7 @@ function Footer2() {
               </div>
               <div className="content">
                 <span>Call Any Time</span>
-                <h6><a href="tel: 29658718617">2-965-871-8617</a></h6>
+                <h6><a href="tel: +968 9202 0910">+968 9202 0910</a></h6>
               </div>
             </div>
           </div>
@@ -43,7 +43,7 @@ function Footer2() {
               </svg>
               Address
             </h4>
-            <a href="#">House 168/170, Avenue 01, Mirpur DOHS, Dhaka Bangladesh</a>
+            <a href="#">Al Wadi Al Kabir, <br /> Muscat, Oman</a>
           </div>
           <div className="footer-contact mb-40">
             <h4>
@@ -52,8 +52,8 @@ function Footer2() {
               </svg>
               Say Hello
             </h4>
-            <a href="mailto:ifo@example.com">ifo@example.com</a><br />
-            <a href="mailto:info@support.com">info@support.com</a>
+            <a href="mailto: support@asyncsolution.com">support@asyncsolution.com</a>
+            
           </div>
           <div className="footer-contact">
             <h6>See Our New updates</h6>

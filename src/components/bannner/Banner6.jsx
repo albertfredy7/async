@@ -39,10 +39,10 @@ function Banner6() {
           <div className="">
 
             <center>
-              <div className="banner-content d-flex flex-column align-items-center justify-content-center mb-5">
+              <div className="banner-content d-flex flex-column  justify-content-center mb-5 mt-5" style={{marginTop:'10%'}}>
   
                 <center>
-                  <h1 className='m-0'>Set Your <span>Business</span><br /> <div style={{textWrap:'balance'}} >Custom Solutions</div></h1>
+                  <h1 className='m-0 mt-5'>Set Your <span>Business</span><br /> <div style={{textWrap:'balance'}} >Custom Solutions</div></h1>
                   
                 </center>
                

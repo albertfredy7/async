@@ -6,7 +6,7 @@ function Partner3() {
     <div className="home3-partner-area" id="home3-partner-area" style={{ maxHeight: '500px', overflowY: 'auto' }}>
       <div className="container-fluid">
         <div className="row g-4">
-          <div className="col-lg-3">
+          <div className="col-lg-3 text-center">
             <div className="partner-title">
               <h3>Our Collaborators</h3>
             </div>

@@ -74,28 +74,32 @@ function Testimonial3() {
                   </div>
                   <div className="testimonial-top">
                     <div className="review-left">
-                      <img src="assets/img/home-4/trustpilot.svg" alt="" />
+                      <img src="assets/img/home-4/google.svg" alt="" />
                     </div>
                     <div className="review-right">
-                      <img src="assets/img/home-4/trastpilot-star.svg" alt="" />
+                      <ul className="star">
+                        <li><i className="bi bi-star-fill" /></li>
+                        <li><i className="bi bi-star-fill" /></li>
+                        <li><i className="bi bi-star-fill" /></li>
+                        <li><i className="bi bi-star-fill" /></li>
+                        <li><i className="bi bi-star-fill" /></li>
+                      </ul>
                     </div>
                   </div>
                   <div className="testimonial-content">
-                    <p>“Integer purus odio, placerat nec rhoncus in, ullamcorper nec dolor. and utoor
-                      himenaeos. Praesent nec neque at dolor venenatis consectetur european gon
-                      Donec lacinia placerat felis non aliquam.”</p>
+                    <p>“The team is reliable and provides 24/7 support. Its very convinient to work with them. ”</p>
                   </div>
                   <div className="testimonial-btm">
                     <div className="author-area">
                       <div className="author-content">
-                        <h4>Mateo Daniel</h4>
-                        <span>CEO At atlantis.com</span>
+                        <h4>Mr.Said</h4>
+                        <span>CEO At W-Interior</span>
                       </div>
                     </div>
-                    <div className="review-date-and-time">
+                    {/* <div className="review-date-and-time">
                       <p>May 9, 2023</p> 
                       <span>10.30 PM</span>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="author-img">
@@ -122,60 +126,23 @@ function Testimonial3() {
                     </div>
                   </div>
                   <div className="testimonial-content">
-                    <p>“Integer purus odio, placerat nec rhoncus in, ullamcorper nec dolor. and utoor
-                      himenaeos. Praesent nec neque at dolor venenatis consectetur european gon
-                      Donec lacinia placerat felis non aliquam.”</p>
+                    <p>“The team's excellent teamwork and well-equipped talents have resulted in satisfactory outcomes. They provide an all-in-one, one-stop solution and are the best consultant team to support any startup business or anyone who needs value-added solutions.”</p>
                   </div>
                   <div className="testimonial-btm">
                     <div className="author-area">
                       <div className="author-content">
-                        <h4>Mateo Daniel</h4>
-                        <span>CEO At atlantis.com</span>
+                        <h4>Mr.Abhiram Menon</h4>
+                        <span>Co-Founder at Vybes Lifestyle</span>
                       </div>
                     </div>
-                    <div className="review-date-and-time">
+                    {/* <div className="review-date-and-time">
                       <p>May 9, 2023</p> 
                       <span>10.30 PM</span>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="author-img">
-                  <img src="assets/img/home-3/h3-testi-02.png" alt="" />
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className="swiper-slide">
-                <div className="testimonial-card3">
-                  <div className="quate-icon">
-                    <img src="assets/img/home-4/left-quote.svg" alt="" />
-                  </div>
-                  <div className="testimonial-top">
-                    <div className="review-left">
-                      <img src="assets/img/home-4/trustpilot.svg" alt="" />
-                    </div>
-                    <div className="review-right">
-                      <img src="assets/img/home-4/trastpilot-star.svg" alt="" />
-                    </div>
-                  </div>
-                  <div className="testimonial-content">
-                    <p>“Integer purus odio, placerat nec rhoncus in, ullamcorper nec dolor. and utoor
-                      himenaeos. Praesent nec neque at dolor venenatis consectetur european gon
-                      Donec lacinia placerat felis non aliquam.”</p>
-                  </div>
-                  <div className="testimonial-btm">
-                    <div className="author-area">
-                      <div className="author-content">
-                        <h4>Mateo Daniel</h4>
-                        <span>CEO At atlantis.com</span>
-                      </div>
-                    </div>
-                    <div className="review-date-and-time">
-                      <p>May 9, 2023</p> 
-                      <span>10.30 PM</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="author-img">
-                  <img src="assets/img/home-3/h3-testi-03.png" alt="" />
+                  <img src="assets/img/home-3/h3-testi-01.png" alt="" />
                 </div>
               </SwiperSlide>
               <SwiperSlide className="swiper-slide">
@@ -198,27 +165,104 @@ function Testimonial3() {
                     </div>
                   </div>
                   <div className="testimonial-content">
-                    <p>“Integer purus odio, placerat nec rhoncus in, ullamcorper nec dolor. and utoor
-                      himenaeos. Praesent nec neque at dolor venenatis consectetur european gon
-                      Donec lacinia placerat felis non aliquam.”</p>
+                    <p>“Very supportive and Proactive team. I explained the challenges for my dermatoglogy clinic (THEKLINK) and particularly with customer relationships, They came up with very well maintained and user friendly system. ”</p>
                   </div>
                   <div className="testimonial-btm">
                     <div className="author-area">
                       <div className="author-content">
-                        <h4>Mateo Daniel</h4>
-                        <span>CEO At atlantis.com</span>
+                        <h4>Mrs. Farah</h4>
+                        <span>Founder & CEO - THEKLINK</span>
                       </div>
                     </div>
-                    <div className="review-date-and-time">
+                    {/* <div className="review-date-and-time">
                       <p>May 9, 2023</p> 
                       <span>10.30 PM</span>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="author-img">
-                  <img src="assets/img/home-3/h3-testi-02.png" alt="" />
+                  <img src="assets/img/home-3/h3-testi-01.png" alt="" />
                 </div>
               </SwiperSlide>
+              <SwiperSlide className="swiper-slide">
+                <div className="testimonial-card3">
+                  <div className="quate-icon">
+                    <img src="assets/img/home-4/left-quote.svg" alt="" />
+                  </div>
+                  <div className="testimonial-top">
+                    <div className="review-left">
+                      <img src="assets/img/home-4/google.svg" alt="" />
+                    </div>
+                    <div className="review-right">
+                      <ul className="star">
+                        <li><i className="bi bi-star-fill" /></li>
+                        <li><i className="bi bi-star-fill" /></li>
+                        <li><i className="bi bi-star-fill" /></li>
+                        <li><i className="bi bi-star-fill" /></li>
+                        <li><i className="bi bi-star-fill" /></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div className="testimonial-content">
+                    <p>“This team has helped me for what I've been looking for more than 8 years. They built us a mobile app to handle onsite activities by our employees. It is completely helpful and worth every single pany they charged.”</p>
+                  </div>
+                  <div className="testimonial-btm">
+                    <div className="author-area">
+                      <div className="author-content">
+                        <h4>Mr. Hassan</h4>
+                        <span>Co-Founder &CEO - DigitalKey</span>
+                      </div>
+                    </div>
+                    {/* <div className="review-date-and-time">
+                      <p>May 9, 2023</p> 
+                      <span>10.30 PM</span>
+                    </div> */}
+                  </div>
+                </div>
+                <div className="author-img">
+                  <img src="assets/img/home-3/h3-testi-01.png" alt="" />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className="swiper-slide">
+                <div className="testimonial-card3">
+                  <div className="quate-icon">
+                    <img src="assets/img/home-4/left-quote.svg" alt="" />
+                  </div>
+                  <div className="testimonial-top">
+                    <div className="review-left">
+                      <img src="assets/img/home-4/google.svg" alt="" />
+                    </div>
+                    <div className="review-right">
+                      <ul className="star">
+                        <li><i className="bi bi-star-fill" /></li>
+                        <li><i className="bi bi-star-fill" /></li>
+                        <li><i className="bi bi-star-fill" /></li>
+                        <li><i className="bi bi-star-fill" /></li>
+                        <li><i className="bi bi-star-fill" /></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div className="testimonial-content">
+                    <p>“Working with the team was a great experience. They delivered the work in a short amount of time without compromising quality.”</p>
+                  </div>
+                  <div className="testimonial-btm">
+                    <div className="author-area">
+                      <div className="author-content">
+                        <h4>Mr. Mohamed Al Yarubi</h4>
+                        <span>CEO -Al Yarubi Group</span>
+                      </div>
+                    </div>
+                    {/* <div className="review-date-and-time">
+                      <p>May 9, 2023</p> 
+                      <span>10.30 PM</span>
+                    </div> */}
+                  </div>
+                </div>
+                <div className="author-img">
+                  <img src="assets/img/home-3/h3-testi-01.png" alt="" />
+                </div>
+              </SwiperSlide>
+              
             </div>
           </Swiper>
         </div>

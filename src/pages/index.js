@@ -53,10 +53,10 @@ export default function Home() {
 
       <Partner3 />
 
-      <About3 />
+      <About4 />
       {/* <SuccessStory3 /> */}
       <Testimonial3 />
-      <Home3Team />
+      {/* <Home3Team /> */}
       <Home4Contact />
 
       {/* <Home3Blog /> */}

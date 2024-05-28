@@ -9,10 +9,10 @@ function About4() {
       <div className="col-lg-6 wow animate fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
         <div className="about-left-img-wrap">
           <div className="big-img magnetic-item">
-            <img className="img-fluid" src="assets/img/home-4/about-image-01.png" alt="" />
+            <img className="img-fluid" src="assets/img/about.jpg"  style={{mixBlendMode:"hue"}} alt="" />
           </div>
           <div className="sm-img  magnetic-item">
-            <img className="img-fluid" src="assets/img/home-4/about-image-02.png" alt="" />
+            <img className="img-fluid" src="assets/img/about2.jpg" width={'148px'} height={'148px'} alt="" />
           </div>
         </div>
       </div>
@@ -20,9 +20,9 @@ function About4() {
         <div className="banner-right-content">
           <div className="section-title-4">
             <span>CREATIVE VISION</span>
-            <h2>Ensure Superlative <span>Support</span> with Technology.</h2>
-            <p>Maecenas euismod viverra purus, volutpat posuere mauris tristique quisokaft. Mauris facilisis consequat dolor, et luctus tortor imperdiet eget. Nulla europeai venenatis libero. Proin nec nisi auctor, pulvinar massa at, eleifend nisl. Nullaga facilisi. Aliquam ac nisi sed enim ullamcorper condimentum.</p>
-            <p>Donec et tortor vel lacus placerat pellentesque id et mi. Aenean consequat and interdum tincidunt. Donec eget lorem non ligula sodales hendrerit. Donec utrot scelerisque urna. Aenean et feugiat massa.</p>
+            <h2>Ensure Superlative Support with <span>Technology</span>.</h2>
+            <p>Async Solution, based in Oman, empowers businesses with cutting-edge technology and custom solutions. We pride ourselves on understanding our clients' unique needs and delivering tailored solutions that exceed expectations. Our team thrives on creativity, innovation, and driving digital transformation.</p>
+            <p>We believe our success lies in our clients' success, adopting a customer-first approach and building lasting relationships. We create bespoke solutions for diverse industries, turning ideas into reality and driving innovation to propel businesses to new heights.</p>
             <div className="about-btn">
               <Link legacyBehavior href="/about">
                 <a className="primary-btn5">
@@ -50,21 +50,21 @@ function About4() {
           <div className="about-left-content">
             <div className="section-title-4">
               <h2>Unlock the <span>potential</span> of your business.</h2>
-              <p>Maecenas euismod viverra purus, volutpat posuere mauris tristique quisokaft. Mauris facilisis consequat dolor, et luctus tortor imperdiet eget. Nulla europeai facilisi. Aliquam ac nisi sed enim ullamcorper condimentum.</p>
+              <p>Leverage innovative IT solutions that empower growth and efficiency. Our customized services cater to your unique needs, transforming challenges into opportunities. With exceptional support and cutting-edge technology, elevate your business to new heights. Experience unmatched success through tailored digital solutions and expert guidance.</p>
             </div>
             <div className="about-feature">
               <ul>
-                <li><img src="assets/img/home-4/about-feature-vec.svg" alt="" />Creative Strategy</li>
-                <li><img src="assets/img/home-4/about-feature-vec.svg" alt="" />Unique Production</li>
-                <li><img src="assets/img/home-4/about-feature-vec.svg" alt="" />Rebranding Design</li>
-                <li><img src="assets/img/home-4/about-feature-vec.svg" alt="" />Corporate Identity</li>
+                <li><img src="assets/img/home-4/about-feature-vec.svg" alt="" />Custom Software Development</li>
+                <li><img src="assets/img/home-4/about-feature-vec.svg" alt="" />Mobile & Web Applications</li>
+                <li><img src="assets/img/home-4/about-feature-vec.svg" alt="" />Enterprise Solutions</li>
+                <li><img src="assets/img/home-4/about-feature-vec.svg" alt="" />IT Consulting & Support</li>
               </ul>
             </div>
           </div>
         </div>
         <div className="col-lg-6 wow animate fadeInRight" data-wow-delay="500ms" data-wow-duration="1500ms">
           <div className="about-right-img d-flex justify-content-center  magnetic-item">
-            <img className="img-fluid" src="assets/img/home-4/about-image-03.png" alt="" />
+            <img className="img-fluid" src="assets/img/about3.png"  alt="" />
           </div>
         </div>
       </div>

@@ -134,26 +134,9 @@ function HeaderMain() {
                     <p className="para">Follow us on Social Network</p>
                     <div className="blog-widget-body">
                         <ul className="follow-list d-flex flex-row align-items-start gap-4">
-                            <li>
-                                <a href="https://www.facebook.com/">
-                                    <i className="bx bxl-facebook" />
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.twitter.com/">
-                                    <i className="bx bxl-twitter" />
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.instagram.com/">
-                                    <i className="bx bxl-instagram" />
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.pinterest.com/">
-                                    <i className="bx bxl-pinterest" />
-                                </a>
-                            </li>
+                            <li><a href="https://www.facebook.com/people/Async-Solution/100090312594142/" target='blank'><i className="bx bxl-facebook" /></a></li>
+                            <li><a href="https://www.instagram.com/asyncsolution/" target='blank'><i className="bx bxl-instagram" /></a></li>
+                            <li><a href="https://www.linkedin.com/company/asyncsolution/" target='blank'><i className="bx bxl-linkedin" /></a></li>
                         </ul>
                     </div>
                 </div>

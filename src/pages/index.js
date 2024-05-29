@@ -26,6 +26,7 @@ import useBodyClass from "@/hooks/useBodyClass";
 import Head from "next/head";
 import AboutPage from "./about";
 import Home4Contact from "@/components/contact/Home4Contact";
+import TechStack from "@/components/TechStack/TechStack";
 
 export default function Home() {
   useBodyClass("home-dark2");
@@ -51,11 +52,13 @@ export default function Home() {
 
       <Solution3 />
 
-      <Partner3 />
+      <Partnar4 />
 
       <About4 />
+      <TechStack />
       {/* <SuccessStory3 /> */}
       <Testimonial3 />
+      
       {/* <Home3Team /> */}
       <Home4Contact />
 

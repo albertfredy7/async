@@ -10,6 +10,18 @@ function Banner6() {
         top: 0,
         left: 0,
         width: '100%',
+        height: '100%',
+        backgroundImage: 'linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent)',
+        zIndex: 2, // Ensure the overlay is above the content
+      }}
+        className='d-md-none' // Hide on medium devices and larger
+      >
+      </div> {/* Overlay div */}
+      <div style={{
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        width: '100%',
         height: '100vh',
         zIndex: '1',
         opacity: '0.5',
@@ -34,10 +46,9 @@ function Banner6() {
 
         <div className="social-area">
           <ul>
-            <li><a href="https://www.facebook.com/"><i className="bx bxl-facebook" /></a></li>
-            <li><a href="https://twitter.com/"><i className="bx bxl-twitter" /></a></li>
-            <li><a href="https://www.pinterest.com/"><i className="bx bxl-pinterest-alt" /></a></li>
-            <li><a href="https://www.instagram.com/"><i className="bx bxl-instagram" /></a></li>
+            <li><a href="https://www.facebook.com/people/Async-Solution/100090312594142/" target='blank'><i className="bx bxl-facebook" /></a></li>
+            <li><a href="https://www.instagram.com/asyncsolution/" target='blank'><i className="bx bxl-instagram" /></a></li>
+            <li><a href="https://www.linkedin.com/company/asyncsolution/" target='blank'><i className="bx bxl-linkedin" /></a></li>
           </ul>
         </div>
         <div className="row">
@@ -46,7 +57,7 @@ function Banner6() {
 
 
             <center>
-              <div className="banner-content d-flex justify-content-center align-items-center flex-column mb-5 mt-5" style={{ width: '100%', height: '100%', marginTop:'10%' }}>
+              <div className="banner-content d-flex justify-content-center align-items-center flex-column mb-5 mt-5" style={{ width: '100%', height: '100%', marginTop: '10%' }}>
                 <h1 className='m-0 mt-5'>Set Your <span>Business</span><br /><div style={{ textWrap: 'balance' }}>Custom Solutions</div></h1>
                 <p className=''>Unlocking Omani business potential with bespoke IT solutions, driving innovation and success</p>
                 <div className="banner-btn-group">

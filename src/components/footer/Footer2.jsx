@@ -77,12 +77,12 @@ function Footer2() {
           </div>
           <div className="menu-container">
             <ul>
-              <li><Link legacyBehavior href="/service"><a>Web Development</a></Link></li>
-              <li><Link legacyBehavior href="/service"><a>Mobile Development</a></Link></li>
-              <li><Link legacyBehavior href="/service"><a>Cloud Services</a></Link></li>
-              <li><Link legacyBehavior href="/service"><a>Network Connectivity</a></Link></li>
-              <li><Link legacyBehavior href="/service"><a>Data analytics</a></Link></li>
-              <li><Link legacyBehavior href="/service"><a>Software Development</a></Link></li>
+              <li><Link legacyBehavior href="/service"><a>Web/ Desktop App Development</a></Link></li>
+              <li><Link legacyBehavior href="/service"><a>Mobile App Development</a></Link></li>
+              <li><Link legacyBehavior href="/service"><a>Enterprise Application Integrations</a></Link></li>
+              <li><Link legacyBehavior href="/service"><a>Dynamics 365 Implementaion</a></Link></li>
+              <li><Link legacyBehavior href="/service"><a>IT Consultancy</a></Link></li>
+              <li><Link legacyBehavior href="/service"><a>Automation Tasks</a></Link></li>
             </ul>
           </div>
         </div>
@@ -95,11 +95,10 @@ function Footer2() {
           <div className="menu-container">
             <ul>
               <li><Link legacyBehavior href="/about"><a>About Us</a></Link></li>
-              <li><Link legacyBehavior href="/case-study"><a>Case Study</a></Link></li>
-              <li><Link legacyBehavior href="/blog"><a>News &amp; Article</a></Link></li>
-              <li><Link legacyBehavior href="/team1"><a>Our Team</a></Link></li>
-              <li><Link legacyBehavior href="/project"><a>All Portfolio</a></Link></li>
-              <li><Link legacyBehavior href="/pricing"><a>Pricing Plan</a></Link></li>
+              <li><Link legacyBehavior href="/service"><a>Services</a></Link></li>
+              <li><Link legacyBehavior href="/contact"><a>Contact</a></Link></li>
+              <li><Link legacyBehavior href="/careers"><a>Careers</a></Link></li>
+              
             </ul>
           </div>
         </div>
@@ -115,8 +114,6 @@ function Footer2() {
               <li><a href="#">Support Policy</a></li>
               <li><a href="#">Terms &amp; Conditions</a></li>
               <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">Career</a></li>
-              <li><Link legacyBehavior href="/pricing"><a>Pricing Plan</a></Link></li>
             </ul>
           </div>
         </div>
@@ -133,10 +130,9 @@ function Footer2() {
             </div>
             <div className="footer-social">
               <ul>
-                <li><a href="https://www.facebook.com/"><i className="bx bxl-facebook" /></a></li>
-                <li><a href="https://twitter.com/"><i className="bx bxl-twitter" /></a></li>
-                <li><a href="https://www.linkedin.com/"><i className="bx bxl-pinterest-alt" /></a></li>
-                <li><a href="https://www.instagram.com/"><i className="bx bxl-instagram" /></a></li>
+                <li><a href="https://www.facebook.com/people/Async-Solution/100090312594142/" target='blank'><i className="bx bxl-facebook" /></a></li>
+                <li><a href="https://www.instagram.com/asyncsolution/" target='blank'><i className="bx bxl-instagram" /></a></li>
+                <li><a href="https://www.linkedin.com/company/asyncsolution/" target='blank'><i className="bx bxl-linkedin" /></a></li>
               </ul>
             </div>
           </div>

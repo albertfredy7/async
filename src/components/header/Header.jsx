@@ -92,9 +92,7 @@ function HeaderMain() {
                 </div>
                 <div className="sidebar-content">
                     <p>
-                        Duis a orci nunc. Suspendisse ac convallis sapien, quis commodo
-                        libero. Donec nec duomoi luctus, pellentesque lacus sed, mollis
-                        going leo.
+                        Async Solution, based in Oman, is a leading IT provider offering customized digital solutions. We prioritize understanding and exceeding clients' needs with innovative, tailored technology. Our skilled team is dedicated to driving digital transformation with creativity and passion.
                     </p>
                 </div>
                 <div className="address-card">
@@ -106,8 +104,7 @@ function HeaderMain() {
                                 </div>
                                 <div className="info">
                                     <p>
-                                        168/170, Avenue 01, Old York Drive Rich Mirpur DOHS,
-                                        Bangladesh
+                                        Al Wadi Al Kabir, Muscat,Oman
                                     </p>
                                 </div>
                             </div>
@@ -116,8 +113,8 @@ function HeaderMain() {
                                     <i className="fas fa-phone-alt" />
                                 </div>
                                 <div className="info">
-                                    <a href="tel:05661111985">+880 566 1111 985</a>
-                                    <a href="tel:06571111576">+880 657 1111 576</a>
+                                    <a href="tel:+968 92020910">+968 9202 0910</a>
+                                    <a href="tel:+968 24818901">+968 2481 8901</a>
                                 </div>
                             </div>
                             <div className="single-info">
@@ -125,8 +122,7 @@ function HeaderMain() {
                                     <i className="far fa-envelope" />
                                 </div>
                                 <div className="info">
-                                    <a href="mailto: info@example.com">info@example.com</a>
-                                    <a href="mailto: info@support.com">info@support.com</a>
+                                    <a href="mailto: info@example.com">support@asyncsolution.com</a>
                                 </div>
                             </div>
                         </div>
@@ -138,26 +134,9 @@ function HeaderMain() {
                     <p className="para">Follow us on Social Network</p>
                     <div className="blog-widget-body">
                         <ul className="follow-list d-flex flex-row align-items-start gap-4">
-                            <li>
-                                <a href="https://www.facebook.com/">
-                                    <i className="bx bxl-facebook" />
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.twitter.com/">
-                                    <i className="bx bxl-twitter" />
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.instagram.com/">
-                                    <i className="bx bxl-instagram" />
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.pinterest.com/">
-                                    <i className="bx bxl-pinterest" />
-                                </a>
-                            </li>
+                            <li><a href="https://www.facebook.com/people/Async-Solution/100090312594142/" target='blank'><i className="bx bxl-facebook" /></a></li>
+                            <li><a href="https://www.instagram.com/asyncsolution/" target='blank'><i className="bx bxl-instagram" /></a></li>
+                            <li><a href="https://www.linkedin.com/company/asyncsolution/" target='blank'><i className="bx bxl-linkedin" /></a></li>
                         </ul>
                     </div>
                 </div>
@@ -189,20 +168,20 @@ function HeaderMain() {
                             </Link>
                         </div>
                     </div>
-                    <ul className="menu-list" style={{fontSize:'30px'}}>
+                    <ul className="menu-list" style={{ fontSize: '30px' }}>
                         <li className={`${currentRoute === "/" ? "active" : ""}`}>
                             <Link legacyBehavior href="/">
-                                <a style={{fontSize:'20px'}}>Home</a>
+                                <a style={{ fontSize: '20px' }}>Home</a>
                             </Link>
                         </li>
                         <li className={`${currentRoute === "/service" ? "active" : ""}`}>
                             <Link legacyBehavior href="/service">
-                                <a style={{fontSize:'20px'}}>Services</a>
+                                <a style={{ fontSize: '20px' }}>Services</a>
                             </Link>
                         </li>
                         <li className={`${currentRoute === "/about" ? "active" : ""}`}>
                             <Link legacyBehavior href="/about">
-                                <a style={{fontSize:'20px'}}>About</a>
+                                <a style={{ fontSize: '20px' }}>About</a>
                             </Link>
                         </li>
                     </ul>
@@ -224,7 +203,10 @@ function HeaderMain() {
                                 <div className="hotline-info">
                                     <span>Call Us Now</span>
                                     <h6>
-                                        <a href="tel:29658718617">2-965-871-8617</a>
+                                        <a href="tel:96892020910">+968 9202 0910</a>
+                                    </h6>
+                                    <h6>
+                                        <a href="tel:96824818901">+968 2481 8901</a>
                                     </h6>
                                 </div>
                             </div>
@@ -244,7 +226,7 @@ function HeaderMain() {
                                 <div className="email-info">
                                     <span>Email Now</span>
                                     <h6>
-                                        <a href="mailto:example@gmail.com">example@gmail.com</a>
+                                        <a href="support@asyncsolution.com">support@asyncsolution.com</a>
                                     </h6>
                                 </div>
                             </div>

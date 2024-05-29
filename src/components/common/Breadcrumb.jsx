@@ -4,14 +4,15 @@ import React from "react";
 function Breadcrumb({ title, pageName, pageList }) {
   return (
     <section className="breadcrumbs">
-      <div className="breadcrumb-sm-images">
-        <div className="inner-banner-1 magnetic-item">
-          <img src="assets/img/inner-pages/inner-banner-1.png" alt="" />
-        </div>
-        <div className="inner-banner-2 magnetic-item">
-          <img src="assets/img/inner-pages/inner-banner-2.png" alt="" />
-        </div>
-      </div>
+      <div style={{
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        width: '100%',
+        height: '100%',
+        backgroundImage: 'linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent)', // Linear gradient from bottom to top
+        zIndex: -1, // Ensure the overlay is above the content
+      }}></div> {/* Overlay div */}
       <div className="container">
         <div className="row">
           <div className="col-12">

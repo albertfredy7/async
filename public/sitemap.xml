@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://asyncsolution.com/</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://asyncsolution.com/service</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://asyncsolution.com/about</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://asyncsolution.com/careers</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://asyncsolution.com/contact</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+</urlset>

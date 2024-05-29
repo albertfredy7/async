@@ -2,10 +2,46 @@ import Breadcrumb from "@/components/common/Breadcrumb";
 import Layout from "@/components/layout/Layout";
 import Link from "next/link";
 import React from "react";
+import Head from 'next/head';
+
 
 function ServicePage() {
   return (
     <Layout>
+      <Head>
+        <title>IT Services & Solutions | Async Solution LLC</title>
+        <meta name="description" content="Discover a wide range of IT services and solutions offered by Async Solution LLC, empowering businesses with innovation and efficiency." />
+        <meta name="keywords" content="IT Services, Async Solution, Custom Software Development, Mobile App Development, Web Development, Digital Transformation, Enterprise Application Integrations, Dynamics 365 Implementaion, IT Consultancy, Automation Tasks, SSL Certification " />
+        <meta name="author" content="Async Solution LLC" />
+
+        {/* Open Graph Tags for Social Sharing */}
+        <meta property="og:title" content="IT Services & Solutions | Async Solution LLC" />
+        <meta property="og:description" content="Discover a wide range of IT services and solutions offered by Async Solution LLC, empowering businesses with innovation and efficiency." />
+        <meta property="og:image" content="https://asyncsolution.com/assets/img/logo.svg" /> {/* Replace with an image that represents your services */}
+        <meta property="og:url" content="https://asyncsolution.com/service" />
+        <link rel="canonical" href="https://asyncsolution.com/service" />
+
+        {/* Structured Data for SEO */}
+        <script type="application/ld+json" dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "provider": {
+              "@type": "Organization",
+              "name": "Async Solution LLC",
+              "url": "https://asyncsolution.com/service",
+              "logo": "https://asyncsolution.com/assets/img/logo.svg",
+              "sameAs": [
+                "https://www.facebook.com/people/Async-Solution/100090312594142",
+                "https://www.instagram.com/asyncsolution",
+                "https://www.linkedin.com/company/asyncsolution"
+              ]
+            },
+            "serviceType": "IT Services",
+            "areaServed": ["Global", "United States", "Canada", "Oman", "India", "Muscat"], // Specify regions served
+          })
+        }} />
+      </Head>
       <Breadcrumb
         pageList="Servives"
         title="Our Providing Services"
@@ -39,7 +75,7 @@ function ServicePage() {
                     </Link>
                   </h4>
                   <p>
-                  We deliver robust web solutions and intuitive desktop applications for MacBook and Windows, tailored to your business needs.
+                    We deliver robust web solutions and intuitive desktop applications for MacBook and Windows, tailored to your business needs.
                   </p>
                   <ul className="solution-feature">
                     <li>
@@ -75,7 +111,7 @@ function ServicePage() {
             >
               <div className="solution-card magnetic-item">
                 <div className="icon">
-                <img src="assets\img\services\mobile-app-development.svg" alt="Mobile App Development"width={60} height={60} color="#76AC5" />
+                  <img src="assets/img/services/mobile-app-development.svg" alt="Mobile App Development" width={60} height={60} color="#76AC5" />
                 </div>
                 <div className="solution-content">
                   <h4>
@@ -84,7 +120,7 @@ function ServicePage() {
                     </Link>
                   </h4>
                   <p>
-                  We specialize in developing high-quality, user-friendly mobile applications for iOS, Android, and Windows platforms, catering to a broad audience and ensuring seamless user experiences.
+                    We specialize in developing high-quality, user-friendly mobile applications for iOS, Android, and Windows platforms, catering to a broad audience and ensuring seamless user experiences.
                   </p>
                   <ul className="solution-feature">
                     <li>
@@ -144,7 +180,7 @@ function ServicePage() {
                     </Link>
                   </h4>
                   <p>
-                  Leverage our expertise to streamline operations, boost efficiency, and foster collaboration with enterprise-grade application integrations.
+                    Leverage our expertise to streamline operations, boost efficiency, and foster collaboration with enterprise-grade application integrations.
                   </p>
                   <ul className="solution-feature">
                     <li>
@@ -189,7 +225,7 @@ function ServicePage() {
                     </Link>
                   </h4>
                   <p>
-                  Enhance customer relationships and drive growth with Microsoft Dynamics 365, through our expert implementation and customization services.
+                    Enhance customer relationships and drive growth with Microsoft Dynamics 365, through our expert implementation and customization services.
                   </p>
                   <ul className="solution-feature">
                     <li>
@@ -225,7 +261,7 @@ function ServicePage() {
             >
               <div className="solution-card magnetic-item">
                 <div className="icon">
-                <img src="assets/img/services/consultancy.svg" alt="icon" width={60} height={60} />
+                  <img src="assets/img/services/consultancy.svg" alt="icon" width={60} height={60} />
                 </div>
                 <div className="solution-content">
                   <h4>
@@ -234,7 +270,7 @@ function ServicePage() {
                     </Link>
                   </h4>
                   <p>
-                  Our dedicated support team is always available to assist you with any technical queries, troubleshooting, and maintenance, ensuring uninterrupted operations. 
+                    Our dedicated support team is always available to assist you with any technical queries, troubleshooting, and maintenance, ensuring uninterrupted operations.
                   </p>
                   <ul className="solution-feature">
                     <li>
@@ -279,7 +315,7 @@ function ServicePage() {
                     </Link>
                   </h4>
                   <p>
-                  Streamline your workflow and enhance efficiency through comprehensive automation solutions, empowering your business to achieve optimal performance and scalability.
+                    Streamline your workflow and enhance efficiency through comprehensive automation solutions, empowering your business to achieve optimal performance and scalability.
                   </p>
                   <ul className="solution-feature">
                     <li>
